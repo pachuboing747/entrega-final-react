@@ -1,0 +1,345 @@
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+
+img {
+  margin: 10px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.nav-bar{
+  width: 100%;
+  height: auto;
+  border: solid;
+  margin: 0px;
+  background-color: #fcf75e;
+
+}
+
+.navbar-lista a{
+  margin: 10px;
+  font-family: fantasy;
+  text-decoration: none;
+  color: #0E2758;
+  font-size: 20px;
+  
+  
+}
+
+.navbar-botones{
+  flex-wrap: wrap;
+  display: flex;
+  font-family: fantasy;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.carrito{
+  width: 60px;
+  height: 50px;
+  justify-content:end;
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.carrito-vacio{
+  color: #0E2758;
+  margin: 20px 0px 20px 0px;
+}
+
+
+.btn-carrito{
+text-decoration: none;
+border: solid;
+font-family: fantasy;
+border-color: #0E2758;
+color: #0E2758;
+border-radius: 5px;
+font-size: 20px;
+background-color: yellow;
+margin-top: 100px;
+padding: 5px;
+
+}
+
+.cart{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+
+h2{
+  font-family: fantasy;
+  color:yellow;
+  margin-bottom: 10px;
+  width: 100%;
+;
+
+}
+.tarjeta{
+  margin: 20px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #0E2758;
+  width:300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fcf75e;
+  ;
+}
+.container-list{
+  width: 100%;
+  height: 100%;
+}
+
+h4{
+  font-family: fantasy;
+  color: #0E2758;
+}
+h3{
+  font-family: fantasy;
+  color: #0E2758;
+}
+p{
+  font-family: fantasy;
+  color: #0E2758;
+}
+
+.item-list{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #0E2758;
+}
+.text-tarjeta{
+  flex-wrap: wrap;
+  margin: 10px;
+  
+  
+}
+.btn-mas{
+  text-decoration: none;
+  color:white;
+  font-family: fantasy;
+  border: solid;
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: #0E2758;
+  margin: 10px;
+  padding: 5px;
+ 
+
+}
+
+.btn-count{
+  text-decoration: none;
+  color: #0E2758;
+  font-family: fantasy;
+  border: solid;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+
+}
+
+
+.botones-contador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.numero-contador{
+  margin: 10px;
+}
+
+.btn-agregar{
+  width: 100%;
+  color: white;
+  font-family: fantasy;
+  border: solid;
+  border-radius: 5px;
+  background-color: #0E2758;
+  font-size: 25px;
+ justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.capital-letter{
+  background-color: #0E2758;
+  margin: 0px;
+  color: yellow;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.shield{
+  width: 70px;
+  height: 70px;
+ 
+}
+.img-shield{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  
+}
+
+.item-detail{
+width: 100%;
+}
+.img-item-detail{
+  width: 400px;
+}
+.container-item-detail-container{
+width: 100%;
+height: 100%;
+}
+
+
+.titulo-carrito{
+  color: #0E2758;
+  margin: 10px;
+  font-family: fantasy;
+}
+.yellow{
+  color: #0E2758;
+  margin: 10px;
+}
+
+.btn-eliminar-cart{
+  text-decoration: none;
+  background-color: #0E2758;
+  font-family: fantasy;
+  border: solid;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+ 
+}
+
+.crear-orden{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: a;
+text-align: center;
+}
+
+.final-price{
+  margin: 0px;
+  color:#0E2758;
+  font-size: 25px;
+  margin: 5px;
+}
+.continuar-finalizar{
+  width: 100%;
+  color: white;
+  font-family: fantasy;
+  border: solid;
+  border-radius: 5px;
+  background-color: #0E2758;
+  font-size: 25px;
+ justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+
+}
+
+.cart-continuar-finalizar{
+  text-decoration: none;
+  color:white;
+  border-color: white;
+  
+}
+
+.containe-checkout{
+width: 100%;
+height: 100%;
+font-family: fantasy;
+margin: 0px;
+}
+.title{
+font-family: fantasy;
+  color: #0E2758;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.checkout-text{
+  color: #0E2758;
+  margin: 10px;
+}
+
+.btn-checkout{
+color: white;
+background-color: #0E2758;
+font-family: fantasy;
+font-size: 20px;
+margin: 10px;
+}
+
+.input{
+width: 50%;
+border-radius: 5px;
+font-family: fantasy;
+font-size: 20px;
+margin: 10px;
+color: #0E2758;
+}
+
+.boca-checkout{
+  width: 100px;
+  height:auto;
+
+}
+
+.carrito-img{
+  display: flex;
+  margin: 10p;
+  border-collapse: #0E2758;
+  width: fit-content;
+  height: fit-content;
+  width: 100%;
+  height: 100%;
+ align-items: center;
+ object-fit: cover;
+ border: solid;
+ margin: 5px;
+}
+.id-compra{
+  color: #0E2758;
+  font-family: fantasy;
+}
